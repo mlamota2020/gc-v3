@@ -1,0 +1,11 @@
+.wrapper {
+    cursor: url("../cursors/cursor-normal.svg"), url("../cursors/cursor-normal.png"), url("../cursors/cursor-normal.cur"), auto !important;
+}
+
+a {
+    cursor: url("../cursors/cursor-link.svg"), url("../cursors/cursor-link.png"), url("../cursors/cursor-link.cur"), pointer !important;
+}
+
+input {
+    cursor: url("../cursors/cursor-text.svg"), url("../cursors/cursor-text.png"), url("../cursors/cursor-text.cur"), text !important;
+}

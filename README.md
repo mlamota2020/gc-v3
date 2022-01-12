@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Green Complaint | Report enviroment problems
 
-## Getting Started
+[![Forks](https://img.shields.io/github/forks/mlamota2020/green-complaint)](https://github.com/mlamota2020/green-complaint/forks) [![Stars](https://img.shields.io/github/stars/mlamota2020/green-complaint)](https://github.com/mlamota2020/green-complaint/stars/) [![License](	https://img.shields.io/github/license/mlamota2020/green-complaint)](https://github.com/mlamota2020/green-complaint/blob/master/LICENSE.md) [![Issues](https://img.shields.io/github/issues/mlamota2020/green-complaint)](https://github.com/mlamota2020/green-complaint/issues/) [![Pull requests](https://img.shields.io/github/issues-pr/mlamota2020/green-complaint)](https://github.com/mlamota2020/green-complaint/pulls) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/mlamota2020/green-complaint) ![GitHub repo size](https://img.shields.io/github/repo-size/mlamota2020/green-complaint) ![Lines of code](https://img.shields.io/tokei/lines/github/mlamota2020/green-complaint) ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fgreen-complaint.herokuapp.com%252F)
 
-First, run the development server:
+If you see any issues, such as items being recycled the wrong way, say it on **Green Complaint**! Feel free to come and report the issue. Add the necessary data so that something can be done about it. You can also see reports from other people and support the environment. 
+
+## Features
+
+- Refreshed UI
+- Account options
+- Create, edit, and mark reports as resolved
+- Restore reports
+- And more...
+
+## Install in your local environment
+
+Want to create your own? Or contribute? Perfect. Before, please read the [contributing guidelines](.github/CONTRIBUTING.md). To install Green Complaint on your desktop first you need clone the repo, install all the dependencies, and run.
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/mlamota2020/green-complaint.git
+$ cd green-complaint
+$ npm install
+$ ready!!!
 ```
+### Scripts
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+There are some scripts for development and production.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+#### 1.- `npm start`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+With `npm start`, Green Complaint will start the server at [`localhost:4000`](http://localhost:4000).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#### 2.- `npm run dev` and `npm run dev-css`
 
-## Learn More
+`npm run dev` starts a development server powered by Nodemon by restarting it for you when you do changes. To work correctly, you need to run in another console `npm run dev-css` to create the styles on demand.
 
-To learn more about Next.js, take a look at the following resources:
+#### 3.- `npm run build-css`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Use this command to create the actual styles on the app. The diference with `npm run dev-css` is that the command is always watching, and `build-css` isn't watching. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## FAQs
 
-## Deploy on Vercel
+1. ### What if I want to contribute the repo?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Well, you can make changes and create a pull request with the commit. DON'T MAKE THE CHANGES DIRECTLY!!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. ### I'm a 32 bits Windows user and the app doesn't work
+
+The app is only for the 64 bits Windows version. Sorry for the inconveniences.
+
+3. ### I'm building the app for all platforms and it throw me an error saying that it can't wrote an app for 'x' platform. What do I do?
+
+Check that you're builing with admin privileges. This will help to create the app for other plaforms.
+
+----------
+
+> - 2021 YLA - Environmental Club. Coded by Matias La Mota | Logo by Sebastián Heras. Made with ♥

@@ -1,0 +1,48 @@
+/* -------------------------------
+** :: Buttons
+** ---------------------------- */
+
+.normal {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 15px;
+    background: linear-gradient(45deg, var(--teal), var(--blue));
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.normal:hover {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, .2);
+}
+
+.normal:focus {
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, .2);
+}
+
+.xl {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 15px 0;
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, var(--teal), var(--blue));
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.xl:hover {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, .2);
+}
+
+.xl:focus {
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, .2);
+}
