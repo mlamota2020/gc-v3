@@ -10,7 +10,7 @@ export default async function handler(req, res) {
         case "DELETE":
             try {
                 const deletedUser = await User.findByIdAndDelete(id)
-                if (!deletedUser) return res.status(400).json({msg: "User not funded"})
+                if (!deletedUser) return res.status(400).json({msg: "User not founded."})
                 return res.status(204).json()
             } catch (error) {
                 return res.status(400).json({msg: error.message})
@@ -26,7 +26,7 @@ export default async function handler(req, res) {
             case "GET":
                 try {
                     const user = await User.findById(id)
-                    if (!user) return res.status(400).json({msg: "User not funded."})
+                    if (!user) return res.status(400).json({msg: "User not founded."})
                     return res.status(200).json(user)
                 } catch (error) {
                     return res.status(400).json({msg: error.message })

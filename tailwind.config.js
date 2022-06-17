@@ -1,6 +1,5 @@
 module.exports = {
   content: ['./pages/**/*.js', './components/**/*.{js,jsx}'],
-  darkMode: 'class',
   theme: {
     fontFamily: {
       sans: ['\'Inter\''],
