@@ -20,7 +20,7 @@ export default async function handler(req, res) {
         try {
           const newReport = new Report(body)
           const savedReport = await newReport.save()
-          return res.status(201).json(savedReport)
+          return res.redirect('/dashboard')
         } catch (error) {
           return res.status(400).json({error: error.message})
         }

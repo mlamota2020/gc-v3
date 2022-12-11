@@ -1,11 +1,15 @@
 import { Schema, model, models } from 'mongoose'
 /** Model of the reports. */
 const ReportSchema = new Schema({
-    person_name: { 
+    name: { 
         type: String,
         required: true,
     },
-    title: { 
+    image: {
+        type: String,
+        required: true,
+    },
+    title: {
         type: String, 
         required: true,
     },
@@ -13,10 +17,6 @@ const ReportSchema = new Schema({
         type: String,
         required: true,
     },
-    state: { 
-        type: String,
-        required: true,
-    }
 }, {
     timestamps: true
 });
