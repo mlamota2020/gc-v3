@@ -6,6 +6,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { useSession, signIn } from 'next-auth/react'
 
 export default function Example({ reports }) {
+
   const [open, setOpen] = useState(true)
   moment.locale('es')
   const { data: session, status } = useSession()
