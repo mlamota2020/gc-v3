@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Layout from 'components/Layout'
 import moment from 'moment'
 import 'moment/locale/es'
